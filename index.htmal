@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sara Cuenda – Universidad Autónoma de Madrid</title>
+  <meta name="description" content="Sara Cuenda, Profesora Titular del Departamento de Análisis Económico: Economía Cuantitativa, Universidad Autónoma de Madrid. Publicaciones, investigación y apuntes de Álgebra Lineal.">
+
+  <!-- OPTIONAL: if you register https://scuenda.github.io/ in Bing Webmaster Tools
+       with the meta-tag method, paste your code here and remove the comment marks.
+  <meta name="msvalidate.01" content="PASTE-YOUR-BING-CODE-HERE">
+  -->
+
+  <style>
+    /* UAM corporate colors (Manual técnico de identidad visual corporativa, 2025):
+       green Pantone 364 = #4a7729, blue Pantone 3005 = #0077c8, white backgrounds, black text.
+       Official typefaces: Cambria and Calibri. */
+    :root {
+      --uam-green: #4a7729;
+      --uam-blue: #0077c8;
+      --bg: #ffffff;
+      --text: #000000;
+      --muted: #555555;
+      --rule: #d9d9d9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --uam-green: #8cbf63;
+        --uam-blue: #5aaeea;
+        --bg: #161816;
+        --text: #f2f2f2;
+        --muted: #b4b4b4;
+        --rule: #3a3d3a;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { color-scheme: light dark; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Calibri, Carlito, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.55;
+    }
+
+    /* "La vela": the UAM manual allows this shape as a web-header accent,
+       always in the top-right corner. */
+    .vela {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: clamp(120px, 22vw, 260px);
+      height: auto;
+      pointer-events: none;
+    }
+
+    main {
+      position: relative;
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 3rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: Cambria, Caladea, Georgia, "Times New Roman", serif;
+      font-weight: 700;
+      font-size: clamp(2.2rem, 6vw, 3rem);
+      line-height: 1.1;
+      color: var(--uam-green);
+    }
+    .role {
+      margin: 0.75rem 0 0;
+      color: var(--muted);
+      max-width: 34rem;
+    }
+
+    .links {
+      list-style: none;
+      margin: 3rem 0 0;
+      padding: 0;
+      border-top: 3px solid var(--uam-green);
+    }
+    .links li {
+      padding: 1.4rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .links a {
+      font-family: Cambria, Caladea, Georgia, "Times New Roman", serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--uam-blue);
+      text-decoration: none;
+    }
+    .links a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
+    .links a:focus-visible { outline: 2px solid var(--uam-blue); outline-offset: 3px; border-radius: 2px; }
+    .links p { margin: 0.3rem 0 0; color: var(--muted); }
+
+    footer {
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <svg class="vela" viewBox="0 0 260 200" aria-hidden="true">
+    <polygon points="60,0 260,0 260,190 140,120" fill="var(--uam-green)" opacity="0.9"/>
+  </svg>
+
+  <main>
+    <header>
+      <h1>Sara Cuenda</h1>
+      <p class="role">Profesora Titular, Departamento de Análisis Económico: Economía Cuantitativa, Facultad de Ciencias Económicas y Empresariales, Universidad Autónoma de Madrid.</p>
+    </header>
+
+    <ul class="links">
+      <li>
+        <!-- EDIT: replace XXXXXX with your researcher number from your Scimarina profile URL -->
+        <a href="https://uam.scimarina.org/es/ipublic/researcher/262144">Investigación y publicaciones</a>
+        <p>Perfil actualizado en el portal de investigación de la UAM.</p>
+      </li>
+      <li>
+        <a href="/algebra/">Álgebra Lineal</a>
+        <p>Curso de Álgebra Lineal del grado en ADE, en PDF.</p>
+      </li>
+    </ul>
+
+    <footer>
+      <p>Universidad Autónoma de Madrid</p>
+    </footer>
+  </main>
+</body>
+</html>
