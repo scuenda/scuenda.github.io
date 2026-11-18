@@ -1,0 +1,7 @@
+# Configuración del sitio https://scuenda.github.io/
+title: Sara Cuenda
+lang: es
+
+# Ficheros del repositorio que no se publican en la web
+exclude:
+  - README.md
